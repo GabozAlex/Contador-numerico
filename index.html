@@ -4,14 +4,22 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Contador numerico</title>
+	<link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-	<div>
-		<h2>Contador numerico</h2>
-		<h3 id="texto">0</h3>
-		<button onclick="decrementar()">Decrementar</button>
-		<button onclick="reset()">Reset</button>
-		<button onclick="aumentar()">Aumentar</button>
+	<div class="container">
+		<div class="titulo">
+			<h2>Contador numerico</h2>
+		</div>
+		<div class="contador">
+			<h3 id="texto">0</h3>
+		</div>
+		<div class="botones">
+			<button class="bton" onclick="decrementar()">Decrementar-</button>
+			<button class="bton"onclick="reset()">Reset</button>
+			<button class="bton"onclick="aumentar()">Aumentar+</button>
+		</div>	
+		
 	</div>
 <script type="text/javascript" src="script.js"></script>
 </body>
